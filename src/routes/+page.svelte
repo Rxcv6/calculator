@@ -33,10 +33,10 @@ else
 </svelte:head>
 
 <div
-  class="grid grid-cols-4 gap-1 p-9 font-semibold bg-white shadow-2xl rounded-2xl h-[56dvh]  "
+  class="grid grid-cols-4 gap-1 px-9 py-7 font-semibold bg-white shadow-2xl rounded-3xl min-h-[45dvh] w-[18rem]  "
 >
   <div
-    class="flex items-center justify-end h-10 col-span-4 pr-3 mb-1 text-white bg-blue-500 rounded-full"
+    class="flex items-center col-span-4 px-2 text-white break-all bg-blue-500 min-h-2 rounded-xl"
   >
     {eqution}
   </div>
