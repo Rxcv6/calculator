@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 button{
-    @apply bg-[#d6dcef] rounded-full h-12 w-12 text-[#6f748a] shadow-md ;
+    @apply bg-[#d6dcef] rounded-full    h-12 min-w-12 text-[#6f748a] hover:scale-90 transition-all hover:bg-[#6f748a]/10 shadow-md flex items-center justify-center hover:active:bg-[#d6dcef];
 }
 #w{
     @apply text-white ;
 }
 #a{
-    @apply bg-[#f3f6fd] text-[#868994];
+    @apply bg-[#f3f6fd] text-[#868994] hover:scale-90 transition-all hover:bg-[#f3f6fd]/10 hover:active:bg-[#f3f6fd] ;
+}
+body{
+    font-family: "Noto Serif", serif;
 }
