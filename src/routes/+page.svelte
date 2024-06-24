@@ -114,7 +114,7 @@ else
   <button id="4" on:click={()=> addToEqution('4')}>4</button>
   <button id="5" on:click={()=> addToEqution('5')}>5</button>
   <button id="6" on:click={()=> addToEqution('6')}>6</button>
-  <button  on:click={()=> addToEqution(' * ')} id="Digit8" class="bg-[#2784fd] hover:bg-blue-700 hover:active:bg-[#2784fd]">
+  <button  on:click={()=> addToEqution('*')} id="Digit8" class="bg-[#2784fd] hover:bg-blue-700 hover:active:bg-[#2784fd]">
    <Mult/>
   </button>
    
@@ -130,11 +130,15 @@ else
   
   <button id="." on:click={()=> addToEqution('.')}>.</button>
   <button id="0" on:click={()=> addToEqution('0')}>0</button>
-  <button  on:click={solve} id = Equal class="">=</button>
-    
-   <button  on:click={()=> addToEqution(' + ' )} id="+" class="bg-[#68dc79] hover:bg-green-600 hover:active:bg-[#68dc79] text-white">
+  <button id="^" on:click={(() => addToEqution('**'))}>^</button>
+    <button  on:click={()=> addToEqution(' + ' )} id="+" class="bg-[#68dc79] hover:bg-green-600 hover:active:bg-[#68dc79] text-white">
   <Plus/>
   </button>
+  <button  on:click={solve} id = "Equal" class="col-span-4">=</button>
+    
+ 
+
+  
   
   
 </div>
